@@ -39,7 +39,10 @@ apis:
       - Protocol Buffers
       - High Performance
       - Frameworks
-    properties: []
+    properties:
+      - type: JSONSchema
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/json-schema/kitex-configuration.json
 common:
   - type: Website
     url: https://www.cloudwego.io/

@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/api-evangelist/kitex/json-schema/kitex-configuration.json",
+  "title": "Kitex Service Configuration",
+  "description": "JSON Schema for Kitex RPC framework service configuration including client and server options.",
+  "type": "object",
+  "properties": {
+    "server": {
+      "type": "object",
+      "properties": {
+        "service_name": {
+          "type": "string",
+          "description": "Name of the service."
+        },
+        "address": {
+          "type": "string",
+          "description": "Server listen address (e.g., :8888)."
+        },
+        "exit_wait_time": {
+          "type": "string",
+          "description": "Grace period before server exits."
+        },
+        "max_connections": {
+          "type": "integer",
+          "description": "Maximum number of connections."
+        },
+        "mux_transport": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable multiplexed transport."
+        },
+        "read_write_timeout": {
+          "type": "string",
+          "description": "Read/write timeout duration."
+        },
+        "limit": {
+          "type": "object",
+          "properties": {
+            "max_connections": {
+              "type": "integer",
+              "description": "Connection limit."
+            },
+            "max_qps": {
+              "type": "integer",
+              "description": "QPS limit."
+            },
+            "update_interval": {
+              "type": "string",
+              "description": "Interval for updating limiter."
+            }
+          }
+        }
+      }
+    },
+    "client": {
+      "type": "object",
+      "properties": {
+        "rpc_timeout": {
+          "type": "string",
+          "description": "RPC timeout duration."
+        },
+        "connect_timeout": {
+          "type": "string",
+          "description": "Connection timeout duration."
+        },
+        "retry": {
+          "type": "object",
+          "properties": {
+            "max_retry_times": {
+              "type": "integer",
+              "default": 2,
+              "description": "Maximum retry attempts."
+            },
+            "ee_retry": {
+              "type": "object",
+              "properties": {
+                "enabled": { "type": "boolean" },
+                "max_retry_times": { "type": "integer" },
+                "retry_delay": { "type": "string" }
+              },
+              "description": "Error-based retry configuration."
+            },
+            "backup_request": {
+              "type": "object",
+              "properties": {
+                "enabled": { "type": "boolean" },
+                "retry_delay": { "type": "string" }
+              },
+              "description": "Backup request (hedging) configuration."
+            }
+          }
+        },
+        "circuit_breaker": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": true,
+              "description": "Enable circuit breaker."
+            },
+            "error_rate": {
+              "type": "number",
+              "description": "Error rate threshold."
+            },
+            "min_sample": {
+              "type": "integer",
+              "description": "Minimum sample count."
+            }
+          }
+        },
+        "loadbalancer": {
+          "type": "string",
+          "enum": ["weight_round_robin", "random", "round_robin", "interleaved_weighted_round_robin", "alias_method"],
+          "description": "Load balancing algorithm."
+        }
+      }
+    },
+    "registry": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["etcd", "consul", "nacos", "polaris", "zookeeper"],
+          "description": "Service registry type."
+        },
+        "address": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Registry server addresses."
+        }
+      }
+    }
+  }
+}
