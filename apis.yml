@@ -9,13 +9,13 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Microservices
+  - Frameworks
   - Go
+  - High Performance
+  - Microservices
+  - Protocol Buffers
   - RPC
   - Thrift
-  - Protocol Buffers
-  - High Performance
-  - Frameworks
 url: >-
   https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -32,13 +32,13 @@ apis:
       and retry policies, and is optimized for high throughput and low latency.
     humanURL: https://www.cloudwego.io/docs/kitex/
     tags:
-      - Microservices
+      - Frameworks
       - Go
+      - High Performance
+      - Microservices
+      - Protocol Buffers
       - RPC
       - Thrift
-      - Protocol Buffers
-      - High Performance
-      - Frameworks
     properties:
       - type: JSONSchema
         url: >-
