@@ -1,0 +1,13 @@
+{
+  "repo": "kitex",
+  "feeds": [
+    {
+      "source": "https://www.cloudwego.io/blog/",
+      "feed_url": "https://www.cloudwego.io/index.xml",
+      "saved": 10,
+      "title": "CloudWeGo \u2013 CloudWeGo"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:30:40Z"
+}
