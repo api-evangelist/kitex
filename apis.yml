@@ -48,11 +48,11 @@ common:
     url: https://www.cloudwego.io/
   - type: Documentation
     url: https://www.cloudwego.io/docs/kitex/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://www.cloudwego.io/docs/kitex/getting-started/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/cloudwego
-  - type: GitHub Repository
+  - type: GitHubRepository
     url: https://github.com/cloudwego/kitex
   - type: Blog
     url: https://www.cloudwego.io/blog/
