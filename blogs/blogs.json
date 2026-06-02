@@ -2,12 +2,20 @@
   "repo": "kitex",
   "feeds": [
     {
-      "source": "https://www.cloudwego.io/blog/",
+      "source": "https://www.cloudwego.io/index.xml",
       "feed_url": "https://www.cloudwego.io/index.xml",
-      "title": "CloudWeGo \u2013 CloudWeGo",
-      "saved": 50
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://github.com/cloudwego/kitex",
+      "feed_url": "https://github.com/cloudwego/kitex",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 60,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 61,
+  "fetched": "2026-06-01T23:35:02Z"
 }
