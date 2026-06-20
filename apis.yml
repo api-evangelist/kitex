@@ -7,7 +7,7 @@ description: >-
   including service discovery, load balancing, circuit breaking, and retry
   policies, and is optimized for high throughput and low latency.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Frameworks
   - Go
