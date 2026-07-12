@@ -44,6 +44,8 @@ apis:
         url: >-
           https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/json-schema/kitex-configuration.json
 common:
+  - type: DomainSecurity
+    url: security/kitex-domain-security.yml
   - type: Website
     url: https://www.cloudwego.io/
   - type: Documentation
