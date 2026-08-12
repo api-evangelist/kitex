@@ -56,6 +56,17 @@ apis:
         url: >-
           https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/json-schema/kitex-configuration.json
 common:
+  - type: IssueTracker
+    url: https://github.com/cloudwego/kitex/issues
+  - type: Releases
+    url: https://github.com/cloudwego/kitex/releases
+  - type: CodeOfConduct
+    url: https://github.com/cloudwego/kitex/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/cloudwego/kitex/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/cloudwego/kitex/blob/main/LICENSE
   - type: DomainSecurity
     url: security/kitex-domain-security.yml
   - type: Website
