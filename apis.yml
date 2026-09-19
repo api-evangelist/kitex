@@ -33,6 +33,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kitex.png
 tags:
+  - Framework
+  - Go
+  - High Performance
+  - Microservices
+  - Protocol Buffers
+  - RPC
+  - Thrift
+tags_raw:
   - Frameworks
   - Go
   - High Performance
@@ -56,6 +64,14 @@ apis:
       and retry policies, and is optimized for high throughput and low latency.
     humanURL: https://www.cloudwego.io/docs/kitex/
     tags:
+      - Framework
+      - Go
+      - High Performance
+      - Microservices
+      - Protocol Buffers
+      - RPC
+      - Thrift
+    tags_raw:
       - Frameworks
       - Go
       - High Performance
