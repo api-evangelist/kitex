@@ -1,4 +1,4 @@
-# Kitex (kitex)
+# Kitex
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,48 +66,115 @@
 
 Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers serialization, provides built-in service governance features including service discovery, load balancing, circuit breaking, and retry policies, and is optimized for high throughput and low latency.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/apis.yml)
+**Areas:** Framework · Go · High Performance · Microservices · Protocol Buffers · RPC · Thrift
 
-## Scope
+## Kitex on APIs.io
 
-- **Type:** Index
+Everything profiled for Kitex is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kitex/](https://apis.io/providers/kitex/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Frameworks, Go, High Performance, Microservices, Protocol Buffers, RPC, Thrift
+- [Kitex](https://apis.io/apis/kitex/kitex/) — Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (1)
 
-### Kitex
+The data models the API reads and writes.
 
-Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers serialization, provides built-in service governance features including service discovery, load balancing, circuit breaking, and retry policies, and is optimized for high throughput and low latency.
+- [Kitex Service Configuration](https://apis.io/schemas/kitex/kitex-configuration/)
 
-**Human URL:** [https://www.cloudwego.io/docs/kitex/](https://www.cloudwego.io/docs/kitex/)
+#### Governance rules (1)
 
-#### Tags
+Spectral rulesets for the provider's contracts.
 
-- Frameworks, Go, High Performance, Microservices, Protocol Buffers, RPC, Thrift
+- [Kitex — jsonschema rules](https://apis.io/rules/kitex/kitex-jsonschema-spectral-rules/)
 
-#### Properties
+#### Security (1)
 
-- [JSONSchema](json-schema/kitex-configuration.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Kitex Domain Security](https://apis.io/security/kitex/kitex-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Kitex Plans Pricing](https://apis.io/plans/kitex/kitex-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Kitex Rate Limits](https://apis.io/rate-limits/kitex/kitex-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Kitex Finops](https://apis.io/finops/kitex/kitex-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.cloudwego.io/)
 - [Documentation](https://www.cloudwego.io/docs/kitex/)
-- [Getting Started](https://www.cloudwego.io/docs/kitex/getting-started/)
-- [GitHub Organization](https://github.com/cloudwego)
-- [GitHub Repository](https://github.com/cloudwego/kitex)
+- [Getting started](https://www.cloudwego.io/docs/kitex/getting-started/)
 - [Blog](https://www.cloudwego.io/blog/)
+- [GitHub](https://github.com/cloudwego)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 21.7** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 7.2 |
+| Contract governance | 9.8 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kitex/](https://apis.io/providers/kitex/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kitex: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kitex/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
